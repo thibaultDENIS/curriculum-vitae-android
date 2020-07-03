@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CV Thibault DENIS</string>
+    <string name="job_title">Developpeur Android</string>
+    <string name="thibault_s_picture">Photo de Thibault</string>
+    <string name="email_address">thibaultdenis1996@gmail.com</string>
+    <string name="address">Tours 37100</string>
+    <string name="phone_number">+33 6 46 76 81 16</string>
+    <string name="birth_date">20/01/1996</string>
+</resources>

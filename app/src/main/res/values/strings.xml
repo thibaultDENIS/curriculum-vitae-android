@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">curriculum-vitae</string>
+    <string name="job_title">Android Developper</string>
+    <string name="thibault_s_picture">Thibault\'s picture</string>
+    <string name="email_address">thibaultdenis1996@gmail.com</string>
+    <string name="address">Tours 37100 France</string>
+    <string name="phone_number">+33 6 46 76 81 16</string>
+    <string name="birth_date">01/20/1996</string>
+</resources>
