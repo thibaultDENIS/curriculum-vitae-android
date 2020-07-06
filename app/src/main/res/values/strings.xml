@@ -6,4 +6,8 @@
     <string name="address">Tours 37100 France</string>
     <string name="phone_number">+33 6 46 76 81 16</string>
     <string name="birth_date">01/20/1996</string>
+    <string name="menu_title_home">CV Thibault DENIS</string>
+    <string name="menu_title_knowledge">Skills</string>
+    <string name="about_text">I’m a french Android developer and I’m looking for a Android developer job.</string>
+    <string name="about_title">About</string>
 </resources>

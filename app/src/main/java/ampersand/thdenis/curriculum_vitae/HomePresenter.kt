@@ -6,11 +6,11 @@ import android.content.Context
 import android.widget.TextView
 import android.widget.Toast
 
-class MainPresenter {
+class HomePresenter(private val context: Context?) {
 
-    fun copyThat(context: Context, textView: TextView) {
+    fun copyThat(textView: TextView) {
         val clipboard: ClipboardManager =
-            context.getSystemService(Context.CLIPBOARD_SERVICE) as ClipboardManager
+            context?.getSystemService(Context.CLIPBOARD_SERVICE) as ClipboardManager
         val clip = ClipData.newPlainText("", textView.text.toString())
         clipboard.setPrimaryClip(clip)
         Toast.makeText(

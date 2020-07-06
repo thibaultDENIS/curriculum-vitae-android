@@ -6,4 +6,9 @@
     <string name="address">Tours 37100</string>
     <string name="phone_number">+33 6 46 76 81 16</string>
     <string name="birth_date">20/01/1996</string>
+    <string name="menu_title_home">CV Thibault DENIS</string>
+    <string name="menu_title_knowledge">Savoir faires</string>
+    <string name="about_text">Diplômé d’un master d’ingénieur en Informatique à Polytech Tours, et d’un double diplôme d’Informatique équivalent master effectué au Québec, j’ai intégré Shopmium pour mon dernier stage de fin d’étude. Afin de poursuivre dans la même voie, je recherche actuellement un poste de développeur mobile Android.</string>
+    <string name="about_title">A Propos</string>
+
 </resources>
