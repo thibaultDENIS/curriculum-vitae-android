@@ -8,7 +8,8 @@
     <string name="birth_date">01/20/1996</string>
     <string name="menu_title_home">CV Thibault DENIS</string>
     <string name="menu_title_skills">Skills</string>
-    <string name="menu_title_education">Education</string>
+    <string name="menu_title_education">Educations</string>
+    <string name="menu_title_experience">Experiences</string>
     <string name="about_text">I’m a french Android developer and I’m looking for a Android developer job.</string>
     <string name="about_title">About</string>
     <string name="skills_text"> • Java, Kotlin\n• XML, HTML, CSS</string>
@@ -34,5 +35,25 @@
     <string name="education_diploma_bac">Baccalauréat (high school)</string>
     <string name="education_location_bac">Lycée Choiseul, Tours</string>
     <string name="education_description_bac">Economic and Social Branch Mathematical specialty.</string>
+
+    <string name="experience_company_shopmium">Shopmium</string>
+    <string name="experience_poste_shopmium">Mobile Developer - Team Android : 6 months</string>
+    <string name="experience_duration_shopmium">Internship, 2019-2020</string>
+    <string name="experience_description_shopmium">Development and maintenance of the Shopmium Android application in Kotlin and ReactiveX on Android Studio</string>
+    <string name="experience_company_atos2">ATOS</string>
+    <string name="experience_poste_atos2">Junior developer : 2 months</string>
+    <string name="experience_duration_atos2">Internship, 2018</string>
+    <string name="experience_description_atos2">Realization and maintenance of a JEE website, autonomous</string>
+    <string name="experience_company_mcdo">McDonald’s</string>
+    <string name="experience_poste_mcdo">2 months</string>
+    <string name="experience_duration_mcdo">CDI, 2017</string>
+    <string name="experience_description_mcdo">Team working, contact with customers, inventory management</string>
+    <string name="experience_poste_atos">Junior developer : 3 months</string>
+    <string name="experience_duration_atos">Internship, 2016</string>
+    <string name="experience_description_atos">Realization of a JEE website,team working</string>
+    <string name="experience_company_skf">SKF</string>
+    <string name="experience_poste_skf">2 months</string>
+    <string name="experience_duration_skf">interim, 2015</string>
+    <string name="experience_description_skf">Summer work of maintenance and maintenance of a machining center</string>
 
 </resources>

@@ -20,9 +20,9 @@ class EducationsViewHolder(
     private var description: TextView? = null
 
     init {
-        date = itemView.findViewById(R.id.date_textView)
-        university = itemView.findViewById(R.id.university_textView)
-        location = itemView.findViewById(R.id.location_textView)
+        date = itemView.findViewById(R.id.company_textView)
+        university = itemView.findViewById(R.id.poste_textView)
+        location = itemView.findViewById(R.id.duration_textView)
         description = itemView.findViewById(R.id.description_textView)
     }
 

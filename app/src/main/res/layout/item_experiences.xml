@@ -8,10 +8,10 @@
 
     <TextView
         android:id="@+id/company_textView"
-        android:layout_width="60dp"
+        android:layout_width="80dp"
         android:layout_height="0dp"
         android:gravity="center"
-        android:text="2019 - 2020"
+        android:text="Shopmium"
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="@+id/description_textView"
         app:layout_constraintStart_toStartOf="parent"
@@ -29,18 +29,20 @@
             android:id="@+id/poste_textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:maxWidth="180dp"
-            android:text="University description textView"
+            android:text="Mobile developer"
+            app:layout_constraintHorizontal_bias="0"
             android:textStyle="italic"
+            app:layout_constrainedWidth="true"
+            app:layout_constraintEnd_toStartOf="@+id/duration_textView"
             app:layout_constraintStart_toStartOf="@id/poste_duration_layout"
-            app:layout_constraintTop_toTopOf="@id/poste_duration_layout"/>
+            app:layout_constraintTop_toTopOf="@id/poste_duration_layout" />
 
         <TextView
             android:id="@+id/duration_textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:maxWidth="180dp"
-            android:text="Location description textView"
+            android:maxWidth="140dp"
+            android:text="6 mounths"
             android:textSize="13sp"
             android:textStyle="italic"
             app:layout_constraintEnd_toEndOf="@id/poste_duration_layout"
@@ -51,7 +53,7 @@
         android:id="@+id/description_textView"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Education description textView"
+        android:text="description textView"
         android:textColor="@color/gray"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/company_textView"

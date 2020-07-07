@@ -9,6 +9,7 @@
     <string name="menu_title_home">CV Thibault DENIS</string>
     <string name="menu_title_skills">Savoir faires</string>
     <string name="menu_title_education">Mes formations</string>
+    <string name="menu_title_experience">Mes experiences</string>
     <string name="about_text">Diplômé d’un master d’ingénieur en Informatique à Polytech Tours, et d’un double diplôme d’Informatique équivalent master effectué au Québec, j’ai intégré Shopmium pour mon dernier stage de fin d’étude. Afin de poursuivre dans la même voie, je recherche actuellement un poste de développeur mobile Android.</string>
     <string name="about_title">A Propos</string>
     <string name="skills_text">• Java, Kotlin \n • XML, HTML, CSS</string>
@@ -34,4 +35,24 @@
     <string name="education_diploma_bac">Baccalauréat</string>
     <string name="education_location_bac">Lycée Choiseul, Tours</string>
     <string name="education_description_bac">Filière Économique et Sociale spécialité Mathématique, mention AB.</string>
+
+    <string name="experience_company_shopmium">Shopmium</string>
+    <string name="experience_poste_shopmium">Developer Mobile - Team Android : 6 mois</string>
+    <string name="experience_duration_shopmium">Stage, 2019 – 2020</string>
+    <string name="experience_description_shopmium">Développement et maintenance de l’application Shopmium Android en Kotlin et en ReactiveX sur Android Studio</string>
+    <string name="experience_company_atos2">ATOS</string>
+    <string name="experience_poste_atos2">Developer Consultant : 3 mois</string>
+    <string name="experience_duration_atos2">Stage, 2018</string>
+    <string name="experience_description_atos2">Réalisation et maintenance d’un site web JEE avec le Framework Jahia, travail en autonomie</string>
+    <string name="experience_company_mcdo">McDonald’s</string>
+    <string name="experience_poste_mcdo">Equipier polyvalent : 2 mois</string>
+    <string name="experience_duration_mcdo">CDI, 2017</string>
+    <string name="experience_description_mcdo">Travail en équipe, contact avec les clients, gestion des stocks</string>
+    <string name="experience_poste_atos">Developer junior Consultant : 3 mois</string>
+    <string name="experience_duration_atos">Stage, 2016</string>
+    <string name="experience_description_atos">Réalisation d’un site web JEE avec le Framework Jahia, travai d’équipe en méthode Agile</string>
+    <string name="experience_company_skf">SKF</string>
+    <string name="experience_poste_skf">Equipier de renfort : 2 mois</string>
+    <string name="experience_duration_skf">Intérimaire, 2015</string>
+    <string name="experience_description_skf">Travail estival de maintenance et d’entretien d’une centrale d’usinage</string>
 </resources>
