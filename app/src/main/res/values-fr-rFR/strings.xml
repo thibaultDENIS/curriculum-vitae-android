@@ -7,10 +7,10 @@
     <string name="phone_number">+33 6 46 76 81 16</string>
     <string name="birth_date">20/01/1996</string>
     <string name="menu_title_home">CV Thibault DENIS</string>
-    <string name="menu_title_knowledge">Savoir faires</string>
+    <string name="menu_title_skills">Savoir faires</string>
+    <string name="menu_title_education">Mes formations</string>
     <string name="about_text">Diplômé d’un master d’ingénieur en Informatique à Polytech Tours, et d’un double diplôme d’Informatique équivalent master effectué au Québec, j’ai intégré Shopmium pour mon dernier stage de fin d’étude. Afin de poursuivre dans la même voie, je recherche actuellement un poste de développeur mobile Android.</string>
     <string name="about_title">A Propos</string>
-    <string name="skills_title">Savoir-faires</string>
     <string name="skills_text">• Java, Kotlin \n • XML, HTML, CSS</string>
     <string name="languages_title">Langages</string>
     <string name="languages_text">French : langue maternelle \n English : 855 TOEIC (2018)</string>
@@ -18,4 +18,20 @@
     <string name="knowledge_text">• C, C++, C# \n• Python \n• ReactiveX (Java et Kotlin) \n• PHP</string>
     <string name="further_informations_title">Compétences et Outils</string>
     <string name="further_info_text">• Utilisation régulière d’outils informatique (Android Studio, Fork, Slack, Charles, Firebase, Zeplin etc.) \n\n• Maîtrise des règles de bonnes pratiques (Git, Gradle, Selenium, Maven, JMeter, SVN etc.) \n\n• Connaissances du Clean Architecture, MockK, Jenkins, MVP, MVVM, Room \n\n• Teamwork et gestion de projet en méthode agile/scrum et classique</string>
+    <string name="education_date_19_20">2019 – 2020</string>
+    <string name="education_diploma_qc">Master d’Informatique</string>
+    <string name="education_location_qc">UQAC, Chicoutimi (CANADA)</string>
+    <string name="education_description_qc">Équivalence Master BAC+5 : Dans le cadre d’un double diplôme Polytech Tours - Université du Québec A Chicoutimi</string>
+    <string name="education_date_16_19">2016 – 2019</string>
+    <string name="education_diploma_polytech">Polytech Informatique</string>
+    <string name="education_location_polytech">Université François Rabelais, Tours</string>
+    <string name="education_description_polytech">Master Bac+5 : Spécialité Système d’Information</string>
+    <string name="education_date_14_16">2014 – 2016</string>
+    <string name="education_diploma_dut">DUT MMI</string>
+    <string name="education_location_dut">Université François Rabelais, Blois</string>
+    <string name="education_description_dut">Métier du Multimédia et de l’Internet : Spécialité Environnement Web et Applications Multimédia</string>
+    <string name="education_date_14">2014</string>
+    <string name="education_diploma_bac">Baccalauréat</string>
+    <string name="education_location_bac">Lycée Choiseul, Tours</string>
+    <string name="education_description_bac">Filière Économique et Sociale spécialité Mathématique, mention AB.</string>
 </resources>

@@ -7,10 +7,10 @@
     <string name="phone_number">+33 6 46 76 81 16</string>
     <string name="birth_date">01/20/1996</string>
     <string name="menu_title_home">CV Thibault DENIS</string>
-    <string name="menu_title_knowledge">Skills</string>
+    <string name="menu_title_skills">Skills</string>
+    <string name="menu_title_education">Education</string>
     <string name="about_text">I’m a french Android developer and I’m looking for a Android developer job.</string>
     <string name="about_title">About</string>
-    <string name="skills_title">Skills</string>
     <string name="skills_text"> • Java, Kotlin\n• XML, HTML, CSS</string>
     <string name="languages_title">Languages</string>
     <string name="languages_text"> French : Fluent and native\nEnglish : 855 TOEIC (2018)</string>
@@ -18,4 +18,21 @@
     <string name="knowledge_text"> • C, C++, C# \n • Python \n • ReactiveX (Java et Kotlin) \n • PHP</string>
     <string name="further_informations_title">Further informations</string>
     <string name="further_info_text">• Regular use of IT tools (Android Studio, Fork, Slack, Charles, Firebase, Zeplin etc.) practices rules mastering (Git, Gradle, Selenium, Maven, JMeter, SVN etc.) \n\n• Knowledge of Clean Architecture, MockK, Jenkins, MVP, MVVM, Room \n\n• Teamworking and project management in agile / scrum and classic method</string>
+    <string name="education_date_19_20">2019 – 2020</string>
+    <string name="education_diploma_qc">Mastery of computer science</string>
+    <string name="education_location_qc">UQAC, Chicoutimi (CANADA)</string>
+    <string name="education_description_qc">double degree : Polytech Tours - Université du Québec A Chicoutimi</string>
+    <string name="education_date_16_19">2016 – 2019</string>
+    <string name="education_diploma_polytech">Polytech Informatique</string>
+    <string name="education_location_polytech">Université François Rabelais, Tours</string>
+    <string name="education_description_polytech">Specialty Information System</string>
+    <string name="education_date_14_16">2014 – 2016</string>
+    <string name="education_diploma_dut">DUT MMI</string>
+    <string name="education_location_dut">Université François Rabelais, Blois</string>
+    <string name="education_description_dut">Métier du Multimédia et de l’Internet : Specialty Web Environment and Multimedia Applications</string>
+    <string name="education_date_14">2014</string>
+    <string name="education_diploma_bac">Baccalauréat (high school)</string>
+    <string name="education_location_bac">Lycée Choiseul, Tours</string>
+    <string name="education_description_bac">Economic and Social Branch Mathematical specialty.</string>
+
 </resources>

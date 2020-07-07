@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="@dimen/standard_margin">
+
+    <TextView
+        android:id="@+id/date_textView"
+        android:layout_width="60dp"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:text="2019 - 2020"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/description_textView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/university_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxWidth="175dp"
+        android:text="University description textView"
+        android:textStyle="italic"
+        app:layout_constraintStart_toEndOf="@+id/date_textView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/location_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxWidth="175dp"
+        android:textStyle="italic"
+        android:textSize="13sp"
+        android:text="Location description textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/description_textView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/gray"
+        android:text="Education description textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/date_textView"
+        app:layout_constraintTop_toBottomOf="@+id/university_textView" />
+</androidx.constraintlayout.widget.ConstraintLayout>
