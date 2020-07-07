@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="20dp"
-    tools:context=".MainActivity">
+    tools:context=".main.MainActivity">
 
     <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/imageView"
@@ -19,10 +19,10 @@
 
     <TextView
         android:id="@+id/job_title_EditText"
+        style="@style/title1_style"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/job_title"
-        style="@style/title1_style"
         android:textStyle="bold"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -51,6 +51,26 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
+            <TextView
+                android:id="@+id/email_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/standard_margin"
+                android:text="@string/email_address"
+                app:layout_constraintBottom_toBottomOf="@+id/email_imageView"
+                app:layout_constraintStart_toEndOf="@+id/email_imageView"
+                app:layout_constraintTop_toTopOf="@+id/email_imageView" />
+
+            <ImageView
+                android:id="@+id/copy_email_address_imageView"
+                android:layout_width="@dimen/copy_icon_size"
+                android:layout_height="@dimen/copy_icon_size"
+                android:layout_marginStart="@dimen/small_margin"
+                android:src="@drawable/copy"
+                app:layout_constraintBottom_toBottomOf="@+id/email_textView"
+                app:layout_constraintStart_toEndOf="@+id/email_textView"
+                app:layout_constraintTop_toTopOf="@+id/email_textView" />
+
             <ImageView
                 android:id="@+id/phone_imageView"
                 android:layout_width="@dimen/home_picto_size"
@@ -62,6 +82,28 @@
                 app:layout_constraintStart_toStartOf="@+id/email_imageView"
                 app:layout_constraintTop_toBottomOf="@+id/email_imageView" />
 
+            <TextView
+                android:id="@+id/phone_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/standard_margin"
+                android:text="@string/phone_number"
+                app:layout_constraintBottom_toBottomOf="@+id/phone_imageView"
+                app:layout_constraintStart_toEndOf="@+id/phone_imageView"
+                app:layout_constraintTop_toTopOf="@+id/phone_imageView" />
+
+
+            <ImageView
+                android:id="@+id/copy_phone_number_imageView"
+                android:layout_width="@dimen/copy_icon_size"
+                android:layout_height="@dimen/copy_icon_size"
+                android:layout_marginStart="@dimen/small_margin"
+                android:src="@drawable/copy"
+                app:layout_constraintBottom_toBottomOf="@+id/phone_textView"
+                app:layout_constraintStart_toEndOf="@+id/phone_textView"
+                app:layout_constraintTop_toTopOf="@+id/phone_textView"
+                app:layout_constraintVertical_bias="0.0" />
+
             <ImageView
                 android:id="@+id/address_imageView"
                 android:layout_width="@dimen/home_picto_size"
@@ -72,6 +114,17 @@
                 android:src="@drawable/house"
                 app:layout_constraintStart_toStartOf="@+id/phone_imageView"
                 app:layout_constraintTop_toBottomOf="@+id/phone_imageView" />
+
+
+            <TextView
+                android:id="@+id/address_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/standard_margin"
+                android:text="@string/address"
+                app:layout_constraintBottom_toBottomOf="@+id/address_imageView"
+                app:layout_constraintStart_toEndOf="@+id/address_imageView"
+                app:layout_constraintTop_toTopOf="@+id/address_imageView" />
 
             <ImageView
                 android:id="@+id/calendar_imageView"
@@ -85,36 +138,6 @@
                 app:layout_constraintTop_toBottomOf="@+id/address_imageView" />
 
             <TextView
-                android:id="@+id/email_textView"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="@dimen/standard_margin"
-                android:text="@string/email_address"
-                app:layout_constraintBottom_toBottomOf="@+id/email_imageView"
-                app:layout_constraintStart_toEndOf="@+id/email_imageView"
-                app:layout_constraintTop_toTopOf="@+id/email_imageView" />
-
-            <TextView
-                android:id="@+id/phone_textView"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="@dimen/standard_margin"
-                android:text="@string/phone_number"
-                app:layout_constraintBottom_toBottomOf="@+id/phone_imageView"
-                app:layout_constraintStart_toEndOf="@+id/phone_imageView"
-                app:layout_constraintTop_toTopOf="@+id/phone_imageView" />
-
-            <TextView
-                android:id="@+id/address_textView"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="@dimen/standard_margin"
-                android:text="@string/address"
-                app:layout_constraintBottom_toBottomOf="@+id/address_imageView"
-                app:layout_constraintStart_toEndOf="@+id/address_imageView"
-                app:layout_constraintTop_toTopOf="@+id/address_imageView" />
-
-            <TextView
                 android:id="@+id/calendar_textView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -124,33 +147,13 @@
                 app:layout_constraintStart_toEndOf="@+id/calendar_imageView"
                 app:layout_constraintTop_toTopOf="@+id/calendar_imageView" />
 
-            <ImageView
-                android:id="@+id/copy_email_address_imageView"
-                android:layout_width="@dimen/copy_icon_size"
-                android:layout_height="@dimen/copy_icon_size"
-                android:layout_marginStart="@dimen/small_margin"
-                android:src="@drawable/copy"
-                app:layout_constraintBottom_toBottomOf="@+id/email_textView"
-                app:layout_constraintStart_toEndOf="@+id/email_textView"
-                app:layout_constraintTop_toTopOf="@+id/email_textView" />
-
-            <ImageView
-                android:id="@+id/copy_phone_number_imageView"
-                android:layout_width="@dimen/copy_icon_size"
-                android:layout_height="@dimen/copy_icon_size"
-                android:layout_marginStart="@dimen/small_margin"
-                android:src="@drawable/copy"
-                app:layout_constraintBottom_toBottomOf="@+id/phone_textView"
-                app:layout_constraintStart_toEndOf="@+id/phone_textView"
-                app:layout_constraintTop_toTopOf="@+id/phone_textView"
-                app:layout_constraintVertical_bias="0.0" />
 
             <TextView
                 android:id="@+id/about_title_TextView"
+                style="@style/title2_style"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/about_title"
-                style="@style/title2_style"
                 android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/calendar_imageView" />

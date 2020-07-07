@@ -1,4 +1,4 @@
-package ampersand.thdenis.curriculum_vitae
+package ampersand.thdenis.curriculum_vitae.home
 
 import android.content.ClipData
 import android.content.ClipboardManager

@@ -1,15 +1,15 @@
-package ampersand.thdenis.curriculum_vitae
+package ampersand.thdenis.curriculum_vitae.home
 
+import ampersand.thdenis.curriculum_vitae.R
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Toast
 import androidx.fragment.app.Fragment
 import kotlinx.android.synthetic.main.fragment_principal.*
 
 
-class HomeFragment(private val position: Int) : Fragment() {
+class HomeFragment : Fragment() {
 
     private lateinit var presenter: HomePresenter
 
@@ -19,8 +19,8 @@ class HomeFragment(private val position: Int) : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         val result: View = inflater.inflate(R.layout.fragment_principal, container, false)
-        Toast.makeText(context, "Fragment $position called", Toast.LENGTH_LONG).show()
-        presenter = HomePresenter(context)
+        presenter =
+            HomePresenter(context)
         return result
     }
 
@@ -51,6 +51,7 @@ class HomeFragment(private val position: Int) : Fragment() {
     }
 
     companion object {
-        fun newInstance() = HomeFragment(0)
+        fun newInstance() =
+            HomeFragment()
     }
 }

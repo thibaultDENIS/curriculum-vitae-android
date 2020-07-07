@@ -1,5 +1,6 @@
-package ampersand.thdenis.curriculum_vitae
+package ampersand.thdenis.curriculum_vitae.main
 
+import ampersand.thdenis.curriculum_vitae.R
 import android.os.Bundle
 import android.widget.LinearLayout
 import androidx.appcompat.app.AppCompatActivity
@@ -20,7 +21,10 @@ class MainActivity : AppCompatActivity() {
         // 1 - Get ViewPager from layout
         val pager = findViewById<ViewPager>(R.id.activity_main_viewpager)
         // 2 - Set Adapter PageAdapter and glue it together
-        pager.adapter = PageAdapter(this, supportFragmentManager)
+        pager.adapter = PageAdapter(
+            this,
+            supportFragmentManager
+        )
         val layoutParams = tab_layout.layoutParams as ViewPager.LayoutParams
         layoutParams.width = LinearLayout.LayoutParams.WRAP_CONTENT
         tab_layout.layoutParams = layoutParams

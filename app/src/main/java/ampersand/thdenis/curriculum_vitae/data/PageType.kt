@@ -7,13 +7,13 @@ import ampersand.thdenis.curriculum_vitae.R
 import androidx.fragment.app.Fragment
 
 enum class PageType(index: Int) {
-    HOME(0), KNOWLEDGE(1), EDUCATION(2), EXPERIENCE(3), PROJECT(4);
+    HOME(0), SKILLS(1), EDUCATION(2), EXPERIENCE(3), PROJECT(4);
 
     val fragment: Fragment
         get() {
             return when (this) {
                 HOME -> HomeFragment.newInstance()
-                KNOWLEDGE -> KnowledgeFragment.newInstance()
+                SKILLS -> KnowledgeFragment.newInstance()
                 EDUCATION -> EducationsFragment.newInstance()
                 /*EXPERIENCE -> OrganismListFragment.newInstance()
                 PROJECT -> OrganismListFragment.newInstance()
@@ -25,7 +25,7 @@ enum class PageType(index: Int) {
         get() {
             return when (this) {
                 HOME -> R.string.menu_title_home
-                KNOWLEDGE -> R.string.menu_title_skills // ENLEVER LES STRINGS EN DUR
+                SKILLS -> R.string.menu_title_skills // ENLEVER LES STRINGS EN DUR
                 EDUCATION -> R.string.menu_title_education
                 /*EXPERIENCE -> OrganismListFragment.newInstance()
                 PROJECT -> OrganismListFragment.newInstance()
