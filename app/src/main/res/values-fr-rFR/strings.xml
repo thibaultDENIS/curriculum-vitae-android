@@ -10,5 +10,12 @@
     <string name="menu_title_knowledge">Savoir faires</string>
     <string name="about_text">Diplômé d’un master d’ingénieur en Informatique à Polytech Tours, et d’un double diplôme d’Informatique équivalent master effectué au Québec, j’ai intégré Shopmium pour mon dernier stage de fin d’étude. Afin de poursuivre dans la même voie, je recherche actuellement un poste de développeur mobile Android.</string>
     <string name="about_title">A Propos</string>
-
+    <string name="skills_title">Savoir-faires</string>
+    <string name="skills_text">• Java, Kotlin \n • XML, HTML, CSS</string>
+    <string name="languages_title">Langages</string>
+    <string name="languages_text">French : langue maternelle \n English : 855 TOEIC (2018)</string>
+    <string name="knowledge_title">Connaissance en </string>
+    <string name="knowledge_text">• C, C++, C# \n• Python \n• ReactiveX (Java et Kotlin) \n• PHP</string>
+    <string name="further_informations_title">Compétences et Outils</string>
+    <string name="further_info_text">• Utilisation régulière d’outils informatique (Android Studio, Fork, Slack, Charles, Firebase, Zeplin etc.) \n\n• Maîtrise des règles de bonnes pratiques (Git, Gradle, Selenium, Maven, JMeter, SVN etc.) \n\n• Connaissances du Clean Architecture, MockK, Jenkins, MVP, MVVM, Room \n\n• Teamwork et gestion de projet en méthode agile/scrum et classique</string>
 </resources>

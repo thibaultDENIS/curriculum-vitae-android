@@ -16,7 +16,7 @@ class KnowledgeFragment(private val position: Int) : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        val result: View = inflater.inflate(R.layout.fragment_about, container, false)
+        val result: View = inflater.inflate(R.layout.fragment_skills, container, false)
         presenter = KnowledgePresenter()
         return result
     }

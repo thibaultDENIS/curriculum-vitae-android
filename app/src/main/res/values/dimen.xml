@@ -4,8 +4,9 @@
     <dimen name="standard_margin">24dp</dimen>
     <dimen name="large_margin">32dp</dimen>
     <dimen name="copy_icon_size">20dp</dimen>
-    <dimen name="home_picture_size">200dp</dimen>
+    <dimen name="home_picture_size">150dp</dimen>
     <dimen name="home_picto_size">40dp</dimen>
     <dimen name="home_picto_padding">5dp</dimen>
+    <dimen name="standard_padding">10dp</dimen>
 
 </resources>

@@ -9,7 +9,7 @@ import androidx.fragment.app.FragmentPagerAdapter
 open class PageAdapter(private val context: Context, fm: FragmentManager) :
     FragmentPagerAdapter(fm, BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT) {
 
-    private val typeList = listOf(PageType.HOME, PageType.KNOWLEDGE, PageType.EDUCATION, PageType.EXPERIENCE, PageType.PROJECT, PageType.OTHER)
+    private val typeList = listOf(PageType.HOME, PageType.KNOWLEDGE, PageType.EDUCATION, PageType.EXPERIENCE, PageType.PROJECT)
 
     override fun getItem(position: Int): Fragment {
         return typeList[position].fragment

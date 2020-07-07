@@ -10,4 +10,12 @@
     <string name="menu_title_knowledge">Skills</string>
     <string name="about_text">I’m a french Android developer and I’m looking for a Android developer job.</string>
     <string name="about_title">About</string>
+    <string name="skills_title">Skills</string>
+    <string name="skills_text"> • Java, Kotlin\n• XML, HTML, CSS</string>
+    <string name="languages_title">Languages</string>
+    <string name="languages_text"> French : Fluent and native\nEnglish : 855 TOEIC (2018)</string>
+    <string name="knowledge_title">Knowledge in</string>
+    <string name="knowledge_text"> • C, C++, C# \n • Python \n • ReactiveX (Java et Kotlin) \n • PHP</string>
+    <string name="further_informations_title">Further informations</string>
+    <string name="further_info_text">• Regular use of IT tools (Android Studio, Fork, Slack, Charles, Firebase, Zeplin etc.) practices rules mastering (Git, Gradle, Selenium, Maven, JMeter, SVN etc.) \n\n• Knowledge of Clean Architecture, MockK, Jenkins, MVP, MVVM, Room \n\n• Teamworking and project management in agile / scrum and classic method</string>
 </resources>

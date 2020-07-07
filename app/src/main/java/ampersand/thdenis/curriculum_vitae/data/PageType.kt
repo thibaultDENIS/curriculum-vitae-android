@@ -6,7 +6,7 @@ import ampersand.thdenis.curriculum_vitae.R
 import androidx.fragment.app.Fragment
 
 enum class PageType(index: Int) {
-    HOME(0), KNOWLEDGE(1), EDUCATION(2), EXPERIENCE(3), PROJECT(4), OTHER(5);
+    HOME(0), KNOWLEDGE(1), EDUCATION(2), EXPERIENCE(3), PROJECT(4);
 
     val fragment: Fragment
         get() {
@@ -16,7 +16,6 @@ enum class PageType(index: Int) {
                 /*EDUCATION -> OrganismListFragment.newInstance()
                 EXPERIENCE -> OrganismListFragment.newInstance()
                 PROJECT -> OrganismListFragment.newInstance()
-                OTHER -> OrganismListFragment.newInstance()
             */else -> HomeFragment.newInstance()
             }
         }
@@ -29,7 +28,6 @@ enum class PageType(index: Int) {
                 /*EDUCATION -> OrganismListFragment.newInstance()
                 EXPERIENCE -> OrganismListFragment.newInstance()
                 PROJECT -> OrganismListFragment.newInstance()
-                OTHER -> OrganismListFragment.newInstance()
             */else -> R.string.menu_title_home
             }
         }

@@ -8,4 +8,19 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="title1_style" parent="android:Theme.Light">
+        <item name="android:fontFamily">monospace</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:layout_marginTop">@dimen/standard_margin</item>
+    </style>
+
+    <style name="title2_style" parent="android:Theme.Light">
+        <item name="android:fontFamily">monospace</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_marginStart">@dimen/standard_margin</item>
+        <item name="android:layout_marginTop">@dimen/standard_margin</item>
+    </style>
+
 </resources>
